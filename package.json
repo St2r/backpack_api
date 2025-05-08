@@ -1,6 +1,6 @@
 {
-  "name": "node_template",
-  "version": "1.0.0",
+  "name": "@st2r/backpack-api",
+  "version": "0.0.1",
   "description": "A template for a Node.js project",
   "type": "module",
   "scripts": {
