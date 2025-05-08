@@ -4,16 +4,18 @@
   "description": "A template for a Node.js project",
   "type": "module",
   "scripts": {
-    "start": "node --experimental-transform-types ./src/index.ts"
+    "start": "node --experimental-transform-types ./src/main.ts"
   },
   "devDependencies": {
-    "@remix-run/eslint-config": "^2.16.5",
-    "@types/node": "^22.15.16",
+    "dotenv": "^16.5.0",
+    "@types/node": "^22.11.18",
     "eslint": "^9.26.0",
+    "eslint-config-love": "^119.0.0",
     "prettier": "^3.5.3",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "eslint-config-love": "^119.0.0"
+    "@noble/ed25519": "jsr:^2.2.3",
+    "@scure/base": "jsr:^1.2.5"
   }
 }
