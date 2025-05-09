@@ -1,2 +1,4 @@
 /** @type {import('prettier').Options} */
-export default {};
+export default {
+  singleAttributePerLine: true,
+};
